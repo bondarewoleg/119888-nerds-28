@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог товаров</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html" class="logo__link">
+        <img src="#" alt="логотип веб-студии Нёрдс" class="logo__img" width="160" height="65">
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__item">Студия</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__item">Клиенты</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="inner.html" class="main-nav__item">Магазин</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="#" class="main-nav__item">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="basket">
+      <a href="#" class="basket__link">Корзина</a>
+    </div>
+  </header>
+  <main class="innner-main">
+    <div class="desc-page">
+      <h1 class="desc-page__title">Магазин готовых шаблонов</h1>
+    </div>
+    <section class="filter-products">
+    <!-- <div class="filter"></div> -->
+    <div class="form-products">
+      <form class="form" action="#">
+        <fieldset class="groups-radio-btn">
+          <legend class="title-groups">Сетка:</legend>
+          <div class="wrapper-radio">
+          <input class="field-radio" type="radio" name="radio" id="adaptive-btn" value="radio-adaptive" checked>
+          <label class="label-radio" for="adaptive-btn">Адаптивная</label>
+          </div>
+          <div class="wrapper-radio">
+          <input class="field-radio" type="radio" name="radio" id="fixed-btn" value="radio-fixed">
+          <label class="label-radio" for="fixed-btn">Фиксированная</label>
+          </div>
+          <div class="wrapper-radio">
+          <input class="field-radio" type="radio" name="radio" id="rubber-btn" value="radio-rubber">
+          <label class="label-radio" for="rubber-btn">Резиновая</label>
+        </div>
+        </fieldset>
+        <fieldset class="groups-checkbox">
+          <legend class="title-groups">Особенности:</legend>
+          <div class="wrapper-checkbox">
+            <input class="field-checkbox" type="checkbox" name="slider-checkbox" id="slider-box" checked>
+            <label class="label-checkbox" for="slider-box">Слайдер</label>
+          </div>
+          <div class="wrapper-checkbox">
+            <input class="field-checkbox" type="checkbox" name="advantages-blog-checkbox" id="advantages-blog-box">
+            <label class="label-checkbox" for="advantages-blog-box">Блог преимуществ</label>
+          </div>
+          <div class="wrapper-checkbox">
+            <input class="field-checkbox" type="checkbox" name="news-checkbox" id="news-box" checked>
+            <label class="label-checkbox" for="news-box">Новости</label>
+          </div>
+          <div class="wrapper-checkbox">
+            <input class="field-checkbox" type="checkbox" name="gallery-checkbox" id="gallery-box">
+            <label class="label-checkbox" for="gallery-box">Галерея</label>
+          </div>
+          <div class="wrapper-checkbox">
+            <input class="field-checkbox" type="checkbox" name="basket-checkbox" id="basket-box" >
+            <label class="label-checkbox" for="basket-box">Корзина</label>
+          </div>
+          <div class="btn-wrapper">
+            <button class="form-btn" type="button">Показать</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+    <section class="catalog-products">
+            <!-- <div class="sort-products"></div> -->
+            <div class="catalog">
+              <ul class="catalog-list">
+                <li class="catalog-item">
+                  <div class="product-pic">
+                    <img src="#" alt="" class="product-pic__img">
+                  </div>
+                  <div class="product-desc">
+                    <h2 class="product-desc__title">Sedona</h2>
+                    <p class="product-desc__text">Информационный сайт для туристов</p>
+                    <a href="#" class="product-desc__link">9 900 ₽</a>
+                  </div>                    
+                </li>
+                <li class="catalog-item">
+                  <div class="product-pic">
+                    <img src="#" alt="" class="product-pic__img">
+                  </div>
+                  <div class="product-desc">
+                    <h2 class="product-desc__title">Pink App</h2>
+                    <p class="product-desc__text">Продуктовый лендинг приложения для iOS и Android</p>
+                    <a href="#" class="product-desc__link">9 900 ₽</a>
+                  </div>                    
+                </li>
+                <li class="catalog-item">
+                  <div class="product-pic">
+                    <img src="#" alt="" class="product-pic__img">
+                  </div>
+                  <div class="product-desc">
+                    <h2 class="product-desc__title">Barbershop</h2>
+                    <p class="product-desc__text">Сайт салона красоты.Для мужчин, да.</p>
+                    <a href="#" class="product-desc__link">9 900 ₽</a>
+                  </div>                   
+                </li>
+                <li class="catalog-item">
+                  <div class="product-pic">
+                    <img src="#" alt="" class="product-pic__img">
+                  </div>
+                  <div class="product-desc">
+                    <h2 class="product-desc__title">Mishka</h2>
+                    <p class="product-desc__text">Интернет-магазин вязаных игрушек</p>
+                    <a href="#" class="product-desc__link">9 900 ₽</a>
+                  </div>                   
+                </li>
+                <li class="catalog-item">
+                  <div class="product-pic">
+                    <img src="#" alt="" class="product-pic__img">
+                  </div>
+                  <div class="product-desc">
+                    <h2 class="product-desc__title">A Plus</h2>
+                    <p class="product-desc__text">Лендинг курсов повышения квалификации</p>
+                    <a href="#" class="product-desc__link"9 900 ₽></a>
+                  </div>                   
+                </li>
+                <li class="catalog-item">
+                  <div class="product-pic">
+                    <img src="#" alt="" class="product-pic__img">
+                  </div>
+                  <div class="product-desc">
+                    <h2 class="product-desc__title">Кваст</h2>
+                    <p class="product-desc__text">Промо-сайт производителя крафтового кваса</p>
+                    <a href="#" class="product-desc__link">9 900 ₽</a>
+                  </div>                    
+                </li>
+              </ul>
+            </div>
+    </section>
+    <!-- <div class="pagination"></div> -->
+    <!-- <section class="map"></section> -->
+  </main>
+  <footer class="footer">
+    <div class="socials">
+      <ul class="socials-list">
+        <li class="socials-item">
+          <a href="#" class="socials__link"></a>
+        </li>
+        <li class="socials-item">
+          <a href="#" class="socials__link"></a>
+        </li>
+        <li class="socials-item">
+          <a href="#" class="socials__link"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <p class="content__text">Давайте дружить, это выгодно!</p>
+      <p class="content__text">Скидка 10% для друзей из социальных сетей.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
